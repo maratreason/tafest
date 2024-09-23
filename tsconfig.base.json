@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"]
+      "@tafest/home": ["libs/tafest/home/src/index.ts"],
+      "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"],
+      "@tafest/search": ["libs/tafest/search/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
