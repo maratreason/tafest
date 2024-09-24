@@ -9,4 +9,6 @@ import {CommonModule} from "@angular/common";
   styleUrl: "./header.component.scss",
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  imageUrl = "assets/icons/Logo.svg"
+}
