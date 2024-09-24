@@ -9,4 +9,6 @@ import {CommonModule} from "@angular/common";
   styleUrl: "./home.component.scss",
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomeComponent {}
+export class HomeComponent {
+  public imageUrl = "assets/images/main/main.jpeg"
+}
