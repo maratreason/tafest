@@ -19,7 +19,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/tafest/public"
+            "input": "apps/tafest/src/assets",
+            "output": "assets"
           }
         ],
         "styles": ["apps/tafest/src/styles.scss"],
