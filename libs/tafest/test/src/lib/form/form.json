@@ -1,0 +1,58 @@
+{
+  "controls": [
+    {
+      "name": "firstName",
+      "label": "Имя",
+      "value": "",
+      "type": "text",
+      "validators": {
+        "required": true,
+        "minLength": 3
+      }
+    },
+    {
+      "name": "lastName",
+      "label": "Фамилия",
+      "value": "",
+      "type": "text",
+      "validators": {
+        "required": true,
+        "minLength": 2
+      }
+    },
+    {
+      "name": "comments",
+      "label": "Комментарии",
+      "value": "",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "agreeTerms",
+      "label": "Это чекбокс",
+      "value": "false",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "size",
+      "label": "",
+      "value": "",
+      "type": "range",
+      "options": {
+        "min": "0",
+        "max": "100",
+        "step": "1",
+        "icon": "sunny"
+      },
+      "validators": {}
+    },
+    {
+      "name": "lightDark",
+      "label": "Do you like toggles?",
+      "value": "false",
+      "type": "toggle",
+      "validators": {}
+    }
+  ]
+}

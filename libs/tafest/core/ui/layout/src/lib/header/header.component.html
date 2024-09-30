@@ -1,9 +1,24 @@
 <div class="header">
   <div class="container">
     <div class="header-row">
-      <a href="">
-        <img [src]="imageUrl" alt="" />
-      </a>
+      <div class="header-left">
+        <a href="">
+          <img [src]="imageUrl" alt="" />
+        </a>
+      </div>
+      <div class="header-right">
+        <button class="btn btn-primary">Организаторам</button>
+        <div class="header-user">
+          <div class="header-user__img">
+            <img src="assets/images/search/avatar.jpeg" alt="" />
+            <span></span>
+          </div>
+          <div class="header-user__info">
+            <p class="header-user__name">Иван Иванович</p>
+            <p class="header-user__prof">Менеджер</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

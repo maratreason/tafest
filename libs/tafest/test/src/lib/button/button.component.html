@@ -1,0 +1,12 @@
+<div [ngSwitch]="type">
+  <button *ngSwitchCase="'primary'" class="btn btn-primary">
+    <ng-content>Текст кнопки</ng-content>
+  </button>
+  <button *ngSwitchCase="'success'" class="btn btn-success">
+    <ng-content>Текст кнопки</ng-content>
+  </button>
+  <button *ngSwitchDefault class="btn">
+    <ng-content>Текст кнопки</ng-content>
+  </button>
+</div>
+{{ value }}

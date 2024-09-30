@@ -1,0 +1,16 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 3rem;
+
+  &-success {
+    color: #fff;
+    background: #01a450;
+  }
+
+  &.active {
+    background: #ff9500 !important;
+  }
+}

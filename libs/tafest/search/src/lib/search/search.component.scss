@@ -1,0 +1,41 @@
+.search {
+  padding-top: 10rem;
+
+  &-wrapper {
+    display: flex;
+    gap: 2.3rem;
+    overflow-x: hidden;
+  }
+
+  &-frame {
+    width: 68rem;
+    overflow: hidden;
+  }
+
+  &-content {
+    width: 50%;
+  }
+
+  &-form {
+    margin-bottom: 4rem;
+  }
+
+  &-title {
+    margin-bottom: 2rem;
+    font-size: 3.2rem;
+    font-weight: 400;
+  }
+
+  &-sorting {
+    display: flex;
+    gap: 0.8rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+
+  &-card {
+    width: 100%;
+    height: 20rem;
+  }
+}

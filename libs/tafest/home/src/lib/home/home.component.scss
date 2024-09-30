@@ -1,6 +1,115 @@
-.main {
-  padding-top: 10rem;
+.establish {
+  padding: 8rem 0;
+
+  &-wrapper {
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem 1.6rem;
+  }
+
+  &-item {
+    &__wrapper {
+      position: relative;
+      margin-bottom: 2.2rem;
+    }
+
+    &__btn {
+      position: absolute;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.6rem;
+      border-radius: 0.8rem;
+      border: 1px solid #dfdfdf;
+      background: #fff;
+      font-size: 1.5rem;
+      line-height: 1.7;
+      cursor: pointer;
+
+      svg {
+        margin-top: 0.3rem;
+      }
+    }
+
+    &__title {
+      font-size: 2.2rem;
+      font-weight: 500;
+    }
+  }
+
+  &-title {
+    margin-bottom: 4rem;
+  }
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.services {
+  padding: 0 0 8rem;
+
+  &-title {
+    margin-bottom: 4rem;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-bottom: 6rem;
+  }
+
+  &-item {
+    border: 1px solid #dfdfdf;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    &__title {
+      height: 7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      font-weight: 500;
+    }
+  }
+
+  &-btns {
+  }
+}
+
+.slider {
+  &-btns {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  &-btn {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: #dfdfdf;
+    cursor: pointer;
+
+    &.is--active {
+      background: #4a68f6;
+    }
+  }
+}
+
+.banner {
   position: relative;
+  height: 48rem;
+  padding: 10rem 0;
+  overflow: hidden;
 
   &-bg {
     position: absolute;
@@ -11,22 +120,56 @@
   }
 
   &-title {
-    margin-bottom: 3rem;
-    font-size: 5rem;
+    width: 56rem;
+    text-align: left;
+  }
+
+  &-subtitle {
+    width: 28rem;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     color: #fff;
-    text-align: center;
+  }
+}
+
+.impressions {
+  padding: 8rem 0;
+
+  &-title {
+    margin-bottom: 4rem;
   }
 
-  &-wrapper {
-    width: 72.4rem;
-    margin: 0 auto;
+  &-list {
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 6rem;
   }
 
-  &-form {
-    width: 100%;
-    height: 6.6rem;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 1.5rem;
+  &-item {
+  }
+}
+
+.news-card {
+  overflow: hidden;
+
+  &__img {
+    margin-bottom: 2.5rem;
+  }
+
+  &__title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  &__text {
+    margin-bottom: 1.5rem;
+  }
+
+  &__link {
+    color: #4a68f6;
+    font-size: 1.4rem;
+    font-weight: 300;
   }
 }

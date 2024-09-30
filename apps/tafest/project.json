@@ -23,7 +23,7 @@
             "output": "assets"
           }
         ],
-        "styles": ["apps/tafest/src/styles.scss"],
+        "styles": ["apps/tafest/src/fonts.scss", "apps/tafest/src/styles.scss"],
         "scripts": []
       },
       "configurations": {

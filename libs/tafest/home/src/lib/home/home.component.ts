@@ -11,4 +11,5 @@ import {CommonModule} from "@angular/common";
 })
 export class HomeComponent {
   public imageUrl = "assets/images/main/main.jpeg"
+  public bannerImageUrl = "assets/images/main/main-2.jpeg"
 }
