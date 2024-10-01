@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve tafest -o",
+    "start-rooi": "nx serve rooi -o",
+    "start-rooi:seerver": "nx serve rooi -o",
     "start-hm": "nx serve home-money -o",
     "start-hm:server": "json-server --watch apps/home-money/src/assets/db.json --port 3000"
   },
