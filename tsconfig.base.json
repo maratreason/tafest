@@ -1,28 +1,28 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "rootDir": ".",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2015",
-    "module": "esnext",
-    "lib": ["es2020", "dom"],
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@home-money/feature-auth": ["libs/home-money/core/auth/feature-auth/src/index.ts"],
-      "@home-money/feature-login": ["libs/home-money/core/auth/feature-login/src/index.ts"],
-      "@home-money/feature-register": ["libs/home-money/core/auth/feature-register/src/index.ts"],
-      "@tafest/home": ["libs/tafest/home/src/index.ts"],
-      "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"],
-      "@tafest/search": ["libs/tafest/search/src/index.ts"],
-      "@tafest/test": ["libs/tafest/test/src/index.ts"]
-    }
-  },
-  "exclude": ["node_modules", "tmp"]
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "es2015",
+        "module": "esnext",
+        "lib": ["es2020", "dom"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@home-money/feature-auth": ["libs/home-money/core/auth/feature-auth/src/index.ts"],
+            "@home-money/feature-login": ["libs/home-money/core/auth/feature-login/src/index.ts"],
+            "@home-money/feature-register": ["libs/home-money/core/auth/feature-register/src/index.ts"],
+            "@tafest/home": ["libs/tafest/home/src/index.ts"],
+            "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"],
+            "@tafest/search": ["libs/tafest/search/src/index.ts"],
+            "@tafest/test": ["libs/tafest/test/src/index.ts"]
+        }
+    },
+    "exclude": ["node_modules", "tmp"]
 }
