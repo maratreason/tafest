@@ -1,1 +1,2 @@
-export * from "./lib/main-layout.module";
+export * from "./lib/header/header.component";
+export * from "./lib/sitebar/sitebar.component";

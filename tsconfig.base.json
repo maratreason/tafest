@@ -15,10 +15,11 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
+            "@rooi": ["libs/rooi/main/src/index.ts"],
+            "@rooi/layout": ["libs/rooi/core/ui/main-layout/src/index.ts"],
             "@home-money/feature-auth": ["libs/home-money/core/auth/feature-auth/src/index.ts"],
             "@home-money/feature-login": ["libs/home-money/core/auth/feature-login/src/index.ts"],
             "@home-money/feature-register": ["libs/home-money/core/auth/feature-register/src/index.ts"],
-            "@rooi": ["libs/rooi/main/src/index.ts"],
             "@tafest/home": ["libs/tafest/home/src/index.ts"],
             "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"],
             "@tafest/main-layout": ["libs/rooi/core/ui/main-layout/src/index.ts"],

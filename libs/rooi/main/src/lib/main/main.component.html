@@ -1,1 +1,220 @@
-<p>main works!</p>
+<div class="main">
+    <div class="main-header">
+        <div class="main-header__title">
+            <h1 class="main-header__title-text">Пользователи</h1>
+            <div class="main-header__title-count">34895</div>
+        </div>
+        <div class="main-header__toolbar">
+            <div class="search-input">
+                <img class="search-input__icon" src="assets/img/icons/search.svg" alt="">
+                <input class="search-input__input" type="text" placeholder="Поиск по ФИО, email или ID">
+            </div>
+            
+            <div class="select select-sm select-filled">
+                <div class="select-current">
+                    <span class="select-text">Город</span>
+                    <svg class="select-icon" width="8.500000" height="5.248779" viewBox="0 0 8.5 5.24878" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Vector" d="M7.5 0L4.25 3.24L0.99 0L0 0.99L4.25 5.24L8.5 0.99L7.5 0Z" fill="#333" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    </svg>
+                </div>
+
+                <div class="select-list">
+                    <span class="select-item">Казань</span>
+                    <span class="select-item">Москва</span>
+                    <span class="select-item">Владивосток</span>
+                    <span class="select-item">Йошкар-Ола</span>
+                    <span class="select-item">Нижний Новгород</span>
+                </div>
+            </div>
+
+            <div class="select select-sm select-filled">
+                <div class="select-current">
+                    <span class="select-text">Исследования</span>
+                    <svg class="select-icon" width="8.500000" height="5.248779" viewBox="0 0 8.5 5.24878" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Vector" d="M7.5 0L4.25 3.24L0.99 0L0 0.99L4.25 5.24L8.5 0.99L7.5 0Z" fill="#333" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="main-header__panel panel">
+            <div class="panel-list">
+                <div class="panel-item is--active">
+                    <span class="panel-text">Врач</span>
+                    <span class="panel-count">22589</span>
+                </div>
+                <div class="panel-item">
+                    <span class="panel-text">Пользователь</span>
+                    <span class="panel-count">290</span>
+                </div>
+                <div class="panel-item">
+                    <span class="panel-text">Модератор</span>
+                    <span class="panel-count">32</span>
+                </div>
+                <div class="panel-item">
+                    <span class="panel-text">Монитор</span>
+                    <span class="panel-count">21</span>
+                </div>
+                <div class="panel-item">
+                    <span class="panel-text">Администратор</span>
+                    <span class="panel-count">2</span>
+                </div>
+                <div class="panel-item">
+                    <span class="panel-text">Суперадминистратор</span>
+                    <span class="panel-count">1</span>
+                </div>
+                <div class="panel-item">
+                    <span class="panel-text">Корзина</span>
+                    <span class="panel-count">2</span>
+                </div>
+            </div>
+            <div class="panel-btns">
+                <button class="btn btn-sm btn-success">
+                    <img src="assets/img/icons/panel-add-btn.svg" alt="">
+                    <span>Добавить</span>     
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th class="th-sorting"></th>
+                    <th>Таб. №</th>
+                    <th>ФИО</th>
+                    <th>Статус</th>
+                    <th>Роль</th>
+                    <th>Email</th>
+                    <th>Город</th>
+                    <th>Исследования</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8361</td>
+                    <td></td>
+                    <td class="tr-grey">206540504279</td>
+                    <td class="tr-bold">Просекин И. Б.</td>
+                    <td>
+                        <div class="status status-online">
+                            <span class="status-icon"></span>
+                            <span class="status-text">Онлайн</span>
+                        </div>
+                    </td>
+                    <td class="tr-grey">Врач</td>
+                    <td class="tr-grey tr-small">prosekin&#64;mail.ru</td>
+                    <td class="tr-grey">Серов</td>
+                    <td>Опрос Врачей, I этап; MULTISPECT</td>
+                    <td class="tr-options">
+                        <img src="assets/img/icons/message.svg" alt="">
+                        <img src="assets/img/icons/icon_more.svg" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3574</td>
+                    <td></td>
+                    <td class="tr-grey">--</td>
+                    <td class="tr-bold">Сумакова И. Е.</td>
+                    <td>
+                        <div class="status">
+                            <span class="status-icon"></span>
+                            <span class="status-text">Не в сети</span>
+                        </div>
+                    </td>
+                    <td class="tr-grey">Пользователь</td>
+                    <td class="tr-grey tr-small">prosekin&#64;mail.ru</td>
+                    <td class="tr-grey">Челябинск</td>
+                    <td>Опрос Врачей, I этап; MULTISPECT</td>
+                    <td class="tr-options">
+                        <img src="assets/img/icons/message.svg" alt="">
+                        <img src="assets/img/icons/icon_more.svg" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td class="tr-grey">--</td>
+                    <td class="tr-bold">Доганович З.</td>
+                    <td>
+                        <div class="status status-online">
+                            <span class="status-icon"></span>
+                            <span class="status-text">Онлайн</span>
+                        </div>
+                    </td>
+                    <td class="tr-grey">Суперадминистратор</td>
+                    <td class="tr-grey tr-small">doganovich&#64;humanhealth.ru</td>
+                    <td class="tr-grey">--</td>
+                    <td>--</td>
+                    <td class="tr-options">
+                        <img src="assets/img/icons/message.svg" alt="">
+                        <img src="assets/img/icons/icon_more.svg" alt="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="main-footer">
+        <div class="main-footer__actions footer-actions">
+            <div class="select">
+                <div class="select-current">
+                    <span class="select-text">Действия</span>
+                    <svg class="select-icon" width="8.500000" height="5.248779" viewBox="0 0 8.5 5.24878" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Vector" d="M7.5 0L4.25 3.24L0.99 0L0 0.99L4.25 5.24L8.5 0.99L7.5 0Z" fill="#333" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    </svg>
+                </div>
+
+                <div class="select-list">
+                    <span class="select-item">Казань</span>
+                    <span class="select-item">Москва</span>
+                    <span class="select-item">Владивосток</span>
+                    <span class="select-item">Йошкар-Ола</span>
+                    <span class="select-item">Нижний Новгород</span>
+                </div>
+            </div>
+            <button class="btn btn-success">
+                <span>Применить</span>     
+            </button>
+        </div>
+        <div class="main-footer__show footer-show">
+            <span>Показать</span>
+            <div class="select">
+                <div class="select-current">
+                    <span class="select-text">10</span>
+                    <svg class="select-icon" width="8.500000" height="5.248779" viewBox="0 0 8.5 5.24878" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Vector" d="M7.5 0L4.25 3.24L0.99 0L0 0.99L4.25 5.24L8.5 0.99L7.5 0Z" fill="#333" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    </svg>
+                </div>
+
+                <div class="select-list">
+                    <span class="select-item">Казань</span>
+                    <span class="select-item">Москва</span>
+                    <span class="select-item">Владивосток</span>
+                    <span class="select-item">Йошкар-Ола</span>
+                    <span class="select-item">Нижний Новгород</span>
+                </div>
+            </div>
+            <span>строк</span>
+        </div>
+        <div class="main-footer__pagination pagination">
+            <a class="pagination-link pagination-link__arrow" href="#">
+                <img src="assets/img/icons/chevron-bold.svg" alt="">
+            </a>
+            <a class="pagination-link is--active" href="#">1</a>
+            <a class="pagination-link" href="#">2</a>
+            <a class="pagination-link" href="#">3</a>
+            <a class="pagination-link" href="#">...</a>
+            <a class="pagination-link" href="#">1200</a>
+            <a class="pagination-link pagination-link__arrow" href="#">
+                <img src="assets/img/icons/chevron-bold.svg" alt="">
+            </a>
+        </div>
+    </div>
+</div>

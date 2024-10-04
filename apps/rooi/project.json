@@ -19,7 +19,8 @@
                 "assets": [
                     {
                         "glob": "**/*",
-                        "input": "apps/rooi/public"
+                        "input": "apps/rooi/src/assets",
+                        "output": "assets"
                     }
                 ],
                 "styles": ["apps/rooi/src/styles.scss"],
