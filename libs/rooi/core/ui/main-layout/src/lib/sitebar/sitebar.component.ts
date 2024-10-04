@@ -2,7 +2,7 @@ import {ChangeDetectionStrategy, Component} from "@angular/core";
 import {CommonModule} from "@angular/common";
 
 @Component({
-    selector: "lib-sitebar",
+    selector: "sitebar",
     standalone: true,
     imports: [CommonModule],
     templateUrl: "./sitebar.component.html",

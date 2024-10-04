@@ -1,0 +1,50 @@
+.sitebar {
+    width: 22rem;
+    height: 100vh;
+    padding: 2rem;
+    background: #fff;
+    font-weight: 600;
+    border-right: 1px solid #f8fafc;
+
+    &-logo {
+        display: flex;
+        margin-bottom: 3rem;
+    }
+
+    &-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    &-link {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    &-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &-chevron {
+        margin-left: auto;
+        margin-right: 0.4rem;
+    }
+
+    &-message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-right: -0.4rem;
+        border-radius: 50%;
+        background: #78E378;
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+}
