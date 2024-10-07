@@ -21,6 +21,7 @@
             "@rooi": ["libs/rooi/main/src/index.ts"],
             "@rooi/core/http": ["libs/rooi/core/http/src/index.ts"],
             "@rooi/layout": ["libs/rooi/core/ui/main-layout/src/index.ts"],
+            "@rooi/users/data-access": ["libs/rooi/users/data-access/src/index.ts"],
             "@tafest/home": ["libs/tafest/home/src/index.ts"],
             "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"],
             "@tafest/main-layout": ["libs/rooi/core/ui/main-layout/src/index.ts"],
