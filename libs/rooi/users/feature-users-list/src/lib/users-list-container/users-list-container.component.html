@@ -1,1 +1,3 @@
-<p>users-list-container works!</p>
+<ng-container *ngIf="users$ | async as users">
+    <users-list [vm]="users"></users-list>
+</ng-container>
