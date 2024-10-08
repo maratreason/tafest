@@ -5,6 +5,9 @@ import {provideStore, provideState} from "@ngrx/store";
 import {provideEffects} from "@ngrx/effects";
 import * as fromUsers from "@rooi/users/data-access";
 import {userEffects, UsersFacade} from "@rooi/users/data-access";
+import { provideHttpClient } from "@angular/common/http";
+import { API_URL } from "@rooi/core/http";
+import { environment } from "../environments/environment.development";
 
 export const appConfig: ApplicationConfig = {
     providers: [
@@ -15,5 +18,10 @@ export const appConfig: ApplicationConfig = {
         provideStore(),
         provideZoneChangeDetection({eventCoalescing: true}),
         provideRouter(appRoutes),
+        provideHttpClient(),
+        {
+            provide: API_URL,
+            useValue: environment.api_url,
+        }
     ],
 };
