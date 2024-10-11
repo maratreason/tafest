@@ -1,1 +1,15 @@
-<p>x-select works!</p>
+<div [ngClass]="classes">
+    <div class="select-current">
+        <span class="select-text">{{currentOption || value}}</span>
+        <svg class="select-icon" width="8.500000" height="5.248779" viewBox="0 0 8.5 5.24878" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M7.5 0L4.25 3.24L0.99 0L0 0.99L4.25 5.24L8.5 0.99L7.5 0Z" fill="#333" fill-opacity="1.000000" fill-rule="nonzero"/>
+        </svg>
+    </div>
+
+    <div class="select-list">
+        @for(option of options; track $index) {
+            <x-option [option]="option" (setCurrentOption)="setOption($event)">{{option}}</x-option>
+        }
+    </div>
+</div>
