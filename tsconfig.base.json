@@ -29,7 +29,8 @@
             "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"],
             "@tafest/main-layout": ["libs/rooi/core/ui/main-layout/src/index.ts"],
             "@tafest/search": ["libs/tafest/search/src/index.ts"],
-            "@tafest/test": ["libs/tafest/test/src/index.ts"]
+            "@tafest/test": ["libs/tafest/test/src/index.ts"],
+            "@tafest/ui-kit": ["libs/rooi/core/ui/kit/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]
