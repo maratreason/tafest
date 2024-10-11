@@ -1,4 +1,48 @@
-<p>users-list works!</p>
-<pre>
-    {{vm | json}}
-</pre>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>№</th>
+            <th class="th-sorting"></th>
+            <th>Таб. №</th>
+            <th>ФИО</th>
+            <th>Статус</th>
+            <th>Роль</th>
+            <th>Email</th>
+            <th>Город</th>
+            <th>Исследования</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(user of vm.users; track user.id) {
+            <tr>
+                <td>{{user.id}}</td>
+                <td class="tr-grey"></td>
+                <td>{{user.tab_num}}</td>
+                <td class="tr-bold">{{user.surname}} {{user.name}}</td>
+                <td>
+                    @if (user.online == 1) {
+                        <div class="status status-online">
+                            <span class="status-icon"></span>
+                            <span class="status-text">Онлайн</span>
+                        </div>
+                    } @else {
+                        <div class="status">
+                            <span class="status-icon"></span>
+                            <span class="status-text">Не в сети</span>
+                        </div>
+                    }
+                    
+                </td>
+                <td class="tr-grey">{{usersRole[user.role]}}</td>
+                <td class="tr-grey tr-small">{{user.email}}</td>
+                <td class="tr-grey">{{user.city}}</td>
+                <td>{{user.research}}</td>
+                <td class="tr-options">
+                    <img src="assets/img/icons/message.svg" alt="">
+                    <img src="assets/img/icons/icon_more.svg" alt="">
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

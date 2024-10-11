@@ -13,4 +13,7 @@ import { UsersListVM } from "./users-list-vm";
 export class UsersListComponent {
     @Input({required: true})
     vm!: UsersListVM;
+
+    @Input({required: true})
+    usersRole!: String[];
 }
