@@ -12,7 +12,7 @@ export const userEffects = createEffect(
       return actions$.pipe(
         ofType(UsersActions.initUsers),
         switchMap(
-          () => apiService.get('/users').pipe(
+          () => apiService.get('/users?page=1&per_page=3&offset=0').pipe(
             map(
               (users: any) => UsersActions.loadUsersSuccess({
                 users

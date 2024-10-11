@@ -1,0 +1,16 @@
+.widget {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background: #fff;
+
+    &-header {
+        border-bottom: 1px solid #ccc;
+        padding: 20px;
+    }
+
+    &-content {
+        padding: 20px;
+        text-align: center;
+    }
+}

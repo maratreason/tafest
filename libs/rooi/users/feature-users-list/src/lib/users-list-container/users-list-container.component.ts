@@ -17,6 +17,7 @@ import {UsersListVM} from "../users-list/users-list-vm";
 export class UsersListContainerComponent {
     private readonly usersFacade = inject(UsersFacade);
     public readonly users$ = this.usersFacade.allUsers$.pipe(map<UsersEntity[], UsersListVM>((users: UsersEntity[]) => ({users})));
+    public readonly usersRole = ["Суперадминистратор", "Администратор", "Модератор", "Монитор", "Врач", "Пользователь"];
 
     constructor() {
         this.usersFacade.init();

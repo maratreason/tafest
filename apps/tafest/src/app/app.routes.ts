@@ -18,4 +18,8 @@ export const appRoutes: Route[] = [
     path: "test",
     loadComponent: () => import("@tafest/test").then(c => c.TestComponent),
   },
+  {
+    path: "reusable",
+    loadComponent: () => import("@tafest/decoded").then(c => c.ReusableComponent),
+  },
 ];
