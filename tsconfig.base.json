@@ -20,17 +20,17 @@
             "@home-money/feature-register": ["libs/home-money/core/auth/feature-register/src/index.ts"],
             "@rooi": ["libs/rooi/main/src/index.ts"],
             "@rooi/core/http": ["libs/rooi/core/http/src/index.ts"],
+            "@rooi/kit": ["libs/rooi/core/ui/kit/src/index.ts"],
             "@rooi/layout": ["libs/rooi/core/ui/main-layout/src/index.ts"],
             "@rooi/users/data-access": ["libs/rooi/users/data-access/src/index.ts"],
             "@rooi/users/feature-users-list": ["libs/rooi/users/feature-users-list/src/index.ts"],
             "@tafest/decoded": ["libs/tafest/decoded/src/index.ts"],
             "@tafest/home": ["libs/tafest/home/src/index.ts"],
-            "@tafest/kit": ["libs/rooi/core/http/ui/kit/src/index.ts"],
             "@tafest/layout": ["libs/tafest/core/ui/layout/src/index.ts"],
-            "@tafest/main-layout": ["libs/rooi/core/ui/main-layout/src/index.ts"],
+            "@tafest/main-layout": ["libs/tafest/core/ui/main-layout/src/index.ts"],
             "@tafest/search": ["libs/tafest/search/src/index.ts"],
             "@tafest/test": ["libs/tafest/test/src/index.ts"],
-            "@tafest/ui-kit": ["libs/rooi/core/ui/kit/src/index.ts"]
+            "@tafest/ui-kit": ["libs/tafest/core/ui/kit/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]
