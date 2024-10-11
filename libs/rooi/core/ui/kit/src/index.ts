@@ -1,1 +1,1 @@
-export * from "./lib/ui-kit.module";
+export * from "./lib/x-select/x-select.component";
