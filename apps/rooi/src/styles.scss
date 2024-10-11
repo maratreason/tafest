@@ -30,17 +30,6 @@ a {
     color: inherit;
 }
 
-.select {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-
-    &-icon {
-        width: 0.85rem;
-        height: 0.52rem;
-    }
-}
-
 .btn {
     display: flex;
     align-items: center;
@@ -89,46 +78,6 @@ a {
         .status-icon {
             background: #019467;
         }
-    }
-}
-
-.select {
-    min-width: 7rem;
-    width: fit-content;
-    height: 3.6rem;
-    padding: 0.5rem 1.5rem;
-    border: 1px solid #F6F6F6;
-    border-radius: 0.8rem;
-    cursor: pointer;
-
-    &-sm {
-        height: 3rem;
-    }
-
-    &-filled {
-        border: 1px solid #f8fafc;
-        background: #f8fafc;
-    }
-
-    &-current {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 1rem;
-        width: 100%;
-        font-size: 1.2rem;
-    }
-
-    &-icon {
-        object-fit: contain;
-        
-        svg path {
-            fill: #000;
-        }
-    }
-
-    &-list {
-        display: none;
     }
 }
 
